@@ -5,7 +5,8 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "format": "prettier --write ."
+    "format": "prettier --write .",
+    "lint": "eslint ."
   },
   "repository": {
     "type": "git",
@@ -19,6 +20,7 @@
   "homepage": "https://github.com/olgagrinko-dev/Express-Contacts#readme",
   "dependencies": {
     "dotenv": "^16.0.3",
+    "eslint": "^8.41.0",
     "express": "^4.18.2",
     "nodemon": "^2.0.22",
     "pg": "^8.11.0",
